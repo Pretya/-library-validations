@@ -7,8 +7,8 @@ function validateEmail(emailValue, pattern) {
     return false
   }
 }
-emailValue - принимет значение инпута
-pattern - принимает регулярные выражения
+* emailValue - принимет значение инпута
+* pattern - принимает регулярные выражения
 
 =========================
 function validateLogin(loginValue, pattern, minLength, maxLength) {
@@ -20,10 +20,10 @@ function validateLogin(loginValue, pattern, minLength, maxLength) {
     return true;
   }
 }
-loginValue - принимет значение инпута
-pattern - принимает регулярные выражения
-minLength - минимальное количество значение при вводе
-maxLength - максимальное количество значение при вводе
+* loginValue - принимет значение инпута
+* pattern - принимает регулярные выражения
+* minLength - минимальное количество значение при вводе
+* maxLength - максимальное количество значение при вводе
 
 ===========================
 function validatePassword(passwordValue, pattern) {
@@ -34,5 +34,5 @@ function validatePassword(passwordValue, pattern) {
   }
 }
 
-passwordValue - принимет значение инпута
-pattern - принимает регулярные выражения
+* passwordValue - принимет значение инпута
+* pattern - принимает регулярные выражения
