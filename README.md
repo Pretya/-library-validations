@@ -1,7 +1,7 @@
 # library-validations
 
 function validateEmail(emailValue, pattern) {
-  :if(emailValue.match(pattern)) {
+  if(emailValue.match(pattern)) {
     return true
   } else {
     return false
@@ -11,6 +11,7 @@ function validateEmail(emailValue, pattern) {
 * pattern - принимает регулярные выражения
 
 ___
+```
 function validateLogin(loginValue, pattern, minLength, maxLength) {
   if(loginValue.length < minLength || loginValue.length > maxLength) {
     return false;
@@ -20,6 +21,7 @@ function validateLogin(loginValue, pattern, minLength, maxLength) {
     return true;
   }
 }
+```
 * loginValue - принимет значение инпута
 * pattern - принимает регулярные выражения
 * minLength - минимальное количество значение при вводе
