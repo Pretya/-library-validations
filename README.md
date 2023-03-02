@@ -1,7 +1,7 @@
 # library-validations
 
 function validateEmail(emailValue, pattern) {
-  if(emailValue.match(pattern)) {
+  :if(emailValue.match(pattern)) {
     return true
   } else {
     return false
