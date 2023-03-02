@@ -1,5 +1,5 @@
 # library-validations
-
+```
 function validateEmail(emailValue, pattern) {
   if(emailValue.match(pattern)) {
     return true
@@ -7,6 +7,7 @@ function validateEmail(emailValue, pattern) {
     return false
   }
 }
+```
 * emailValue - принимет значение инпута
 * pattern - принимает регулярные выражения
 
@@ -27,6 +28,7 @@ function validateLogin(loginValue, pattern, minLength, maxLength) {
 * minLength - минимальное количество значение при вводе
 * maxLength - максимальное количество значение при вводе
 ___
+```
 function validatePassword(passwordValue, pattern) {
   if(pattern.test(passwordValue)) {
     return true;
@@ -34,7 +36,7 @@ function validatePassword(passwordValue, pattern) {
     return false;
   }
 }
-
+```
 * passwordValue - принимет значение инпута
 * pattern - принимает регулярные выражения
 ___
