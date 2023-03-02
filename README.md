@@ -10,7 +10,7 @@ function validateEmail(emailValue, pattern) {
 * emailValue - принимет значение инпута
 * pattern - принимает регулярные выражения
 
-=========================
+___
 function validateLogin(loginValue, pattern, minLength, maxLength) {
   if(loginValue.length < minLength || loginValue.length > maxLength) {
     return false;
@@ -24,8 +24,7 @@ function validateLogin(loginValue, pattern, minLength, maxLength) {
 * pattern - принимает регулярные выражения
 * minLength - минимальное количество значение при вводе
 * maxLength - максимальное количество значение при вводе
-
-===========================
+___
 function validatePassword(passwordValue, pattern) {
   if(pattern.test(passwordValue)) {
     return true;
