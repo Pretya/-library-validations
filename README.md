@@ -35,3 +35,6 @@ function validatePassword(passwordValue, pattern) {
 
 * passwordValue - принимет значение инпута
 * pattern - принимает регулярные выражения
+___
+[ссылка на GitHub Page](
+https://pretya.github.io/form-validate-page/)
